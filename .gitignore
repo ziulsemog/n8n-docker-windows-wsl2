@@ -1,0 +1,15 @@
+if (-not (Test-Path .gitignore)) {
+@"
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Logs
+*.log
+
+# Environment / secrets
+.env
+
+"@ | Out-File -Encoding utf8 .gitignore
+}
