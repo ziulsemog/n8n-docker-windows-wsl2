@@ -8,6 +8,9 @@ Thumbs.db
 # Logs
 *.log
 
+# 8n8
+n8n_data/ >> .gitignore
+
 # Environment / secrets
 .env
 
